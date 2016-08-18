@@ -10,13 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.najib.task2.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    android:background="#2196F3"
+    tools:showIn="@layout/app_bar_main"
+    android:gravity="center">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HELLO!"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="80dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HOME"
+        android:textSize="60dp"
+        android:textColor="#FFFFFF"/>
+
 </RelativeLayout>
